@@ -10,7 +10,7 @@ Java lambdas are anonymous functions that make code much moe concise and simpler
 == Requirements
 How to prepare for coding along
 
-This kata is developed as a Java maven project.Ensure that you have:
+Ensure that you have:
 
 . JDK 17 or above. _Tested with OpenJDK 11_
 Link: http://jdk.java.net/17/
