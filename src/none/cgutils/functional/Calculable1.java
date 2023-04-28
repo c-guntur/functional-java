@@ -1,6 +1,6 @@
 package none.cgutils.functional;
 
-// NOTE: A basic calculable interface (interfaces are usually adjectives by name).
+//NOTE: A basic calculable interface (interfaces are usually adjectives by name).
 public interface Calculable1 {
 
     Double add(Double a, Double b);

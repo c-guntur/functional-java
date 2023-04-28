@@ -27,10 +27,10 @@ public class UsingBiFunctionAsCalculator {
 
         System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, add.apply(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, subtract.apply(A, B));
+        System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, subtract.apply(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, multiply.apply(A, B));
+        System.out.printf("\nMultiply (%.1f, %.1f) = %.1f", A, B, multiply.apply(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, divide.apply(A, B));
+        System.out.printf("\nDivide (%.1f, %.1f) = %.1f", A, B, divide.apply(A, B));
     }
 }

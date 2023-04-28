@@ -21,7 +21,7 @@ Link: http://jdk.java.net/17/
 
 . Read any `NOTE` comments
 . Fix the code by using `HINT` and `TODO` comments.
-. Have fun
+. Have fun!
 
 === Project Structure
 
@@ -37,17 +37,23 @@ Link: http://jdk.java.net/17/
     |____cgutils
       |____functional
         |____AllConstants.java                <--- Constant values used in all code
+        |
         |____Calculator.java                  <--- Basic calculator
+        |
         |____Calculator1.java                 <--- Custom calculator
         |____Calculable1.java                 <--- Calculator basic interface
+        |
         |____Calculator2.java                 <--- Reusable calculator for different Types
         |____Calculable2.java                 <--- Generics in the interface
+        |
         |____Calculator3.java                 <--- Single operation calculators
         |____Calculable3.java                 <--- Single operation interface
+        |
         |____Calculator4.java                 <--- Lambda magic
         |____Calculator5.java                 <--- Higher Order Functions #1
         |____Calculator6.java                 <--- Higher Order Functions #2
         |____Calculator7.java                 <--- Using FunctionalInterface and default methods
+        |
         |____JavaUnaryOperation.java          <--- Java Function API
         |____UsingBiFunctionAsCalculator.java <--- Java BiFunction API
 

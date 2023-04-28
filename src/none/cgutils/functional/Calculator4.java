@@ -47,10 +47,10 @@ public class Calculator4 {
 
         System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, add.compute(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
+        System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, multiply.compute(A, B));
+        System.out.printf("\nMultiply (%.1f, %.1f) = %.1f", A, B, multiply.compute(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, divide.compute(A, B));
+        System.out.printf("\nDivide (%.1f, %.1f) = %.1f", A, B, divide.compute(A, B));
     }
 }

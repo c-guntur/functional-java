@@ -25,11 +25,11 @@ public class Calculator6 {
         //HINT: (x, y) -> adder(x, y) - or - better yet, use a Method reference!
         System.out.printf("\nAdd (%.1f, %.1f) = %.1f", localAdd(A, B, null));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
+        System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, multiply.compute(A, B));
+        System.out.printf("\nMultiply (%.1f, %.1f) = %.1f", A, B, multiply.compute(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, divide.compute(A, B));
+        System.out.printf("\nDivide (%.1f, %.1f) = %.1f", A, B, divide.compute(A, B));
     }
 
     //NOTE: We do not implement Calculable3 in Example6!

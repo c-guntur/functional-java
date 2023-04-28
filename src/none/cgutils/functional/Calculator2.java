@@ -6,7 +6,7 @@ import static none.cgutils.functional.AllConstants.X;
 import static none.cgutils.functional.AllConstants.Y;
 
 //NOTE: What if we want to
-// SPECIFY DIFFERENT COMPUTATIONS IN DIFFERENT CLASSES?
+// RE-USE THE CALCULATOR FOR EITHER Integer OR Float IN ADDITION TO Double?
 public class Calculator2 {
 
     public static void main(String[] args) {
@@ -20,11 +20,11 @@ public class Calculator2 {
 
         System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, calculatorDouble.add(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, calculatorDouble.subtract(A, B));
+        System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, calculatorDouble.subtract(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, calculatorDouble.multiply(A, B));
+        System.out.printf("\nMultiply (%.1f, %.1f) = %.1f", A, B, calculatorDouble.multiply(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, calculatorDouble.divide(A, B));
+        System.out.printf("\nDivide (%.1f, %.1f) = %.1f", A, B, calculatorDouble.divide(A, B));
 
         //NOTE: Integer Calculator
         //TODO: Replace the null with an 'anonymous' Calculable2 of type Double
@@ -35,7 +35,7 @@ public class Calculator2 {
 
         System.out.printf("\nAdd (%d, %d) = %d", X, Y, calculatorInteger.add(X, Y));
 
-        System.out.printf("\nAdd (%d, %d) = %d", X, Y, calculatorInteger.subtract(X, Y));
+        System.out.printf("\nSubtract (%d, %d) = %d", X, Y, calculatorInteger.subtract(X, Y));
 
         System.out.printf("\nAdd (%d, %d) = %d", X, Y, calculatorInteger.multiply(X, Y));
 

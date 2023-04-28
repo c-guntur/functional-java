@@ -12,36 +12,36 @@ public class Calculator {
         System.out.println("Basic calculator");
         System.out.println("\n----------------------------- Testing calculator");
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, add(A, B));
+        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, calculator.add(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, subtract(A, B));
+        System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, calculator.subtract(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, multiply(A, B));
+        System.out.printf("\nMultiply (%.1f, %.1f) = %.1f", A, B, calculator.multiply(A, B));
 
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, divide(A, B));
+        System.out.printf("\nDivide (%.1f, %.1f) = %.1f", A, B, calculator.divide(A, B));
     }
 
-    private static Double add(Double a, Double b) {
+    private Double add(Double a, Double b) {
 
-        // TODO: Replace the null with a correct math expression
+        //TODO: Replace the null with a correct math expression
         return null;
     }
 
-    private static Double subtract(Double a, Double b) {
+    private Double subtract(Double a, Double b) {
 
-        // TODO: Replace the null with a correct math expression
+        //TODO: Replace the null with a correct math expression
         return null;
     }
 
-    private static Double multiply(Double a, Double b) {
+    private Double multiply(Double a, Double b) {
 
-        // TODO: Replace the null with a correct math expression
+        //TODO: Replace the null with a correct math expression
         return null;
     }
 
-    private static Double divide(Double a, Double b) {
+    private Double divide(Double a, Double b) {
 
-        // TODO: Replace the null with a correct math expression
+        //TODO: Replace the null with a correct math expression
         return null;
     }
 }
