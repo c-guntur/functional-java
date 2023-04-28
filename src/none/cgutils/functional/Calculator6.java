@@ -23,7 +23,7 @@ public class Calculator6 {
         //NOTE: Passing code around as an argument!
         //TODO: Replace the null with the call to the 'adder' method
         //HINT: (x, y) -> adder(x, y) - or - better yet, use a Method reference!
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", localAdd(A, B, null));
+        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, localAdd(A, B, null));
 
         System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
 

@@ -23,7 +23,7 @@ public class Calculator5 {
 
         //NOTE: Passing code around as an argument!
         //TODO: Replace the null with the 'add' lambda
-        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", localAdd(A, B, null));
+        System.out.printf("\nAdd (%.1f, %.1f) = %.1f", A, B, localAdd(A, B, null));
 
         System.out.printf("\nSubtract (%.1f, %.1f) = %.1f", A, B, subtract.compute(A, B));
 
